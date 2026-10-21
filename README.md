@@ -65,26 +65,3 @@ python stage8_iteration/loop_A_optimizer.py
 ```
 
 Do not overwrite `data/stage4_uq_bands.csv`, `data/stage4_uq_raw.csv`, or `data/stage7_audit_report.csv`. New CHGNet output from the finished loop is already in the iteration-scoped files `data/stage4_uq_{raw,bands}_it<N>{S,F,U}.csv`.
-
-## Paper checklist
-
-Already written:
-
-- Methods paragraphs: `results_archive/methods_loopA.md`
-- Stage-by-stage explanation: `results_archive/stages_1_to_8.md`
-- Results table of the certified front and the live front: `results_archive/certified_leader_cards.md`
-
-Figures to place:
-
-- Stage map: `results_archive/flowchart_stages.png`
-- One chart per stage: `results_archive/flowchart_stage_details.png`
-- Inside of one iteration: `results_archive/flowchart_loopA.png`
-- Convergence: `results_archive/slide_loopA_convergence.png`
-- Final Ashby plot: `results_archive/slide_loopA_iter010.png` (fix the y-axis unit before submission; see above)
-- Live front against the eight commercial datasheets: `results_archive/slide_loopA_vs_baselines.png` and `results_archive/baseline_comparison.md`
-
-Still to write, in a later editing pass:
-
-- Introduction: the design goal and why a closed loop with a declared stop is used.
-- Discussion: the front flattened by iteration 5–8 while certifications continued as interior points; the cap was the stop that fired.
-- Limitations: yield is the B_aged calculation, not a measured tensile strength; Ti69Al15V16 carries the `SS_LINEAR_EDGE` flag; a pending hull distance does not reject a new formula.
