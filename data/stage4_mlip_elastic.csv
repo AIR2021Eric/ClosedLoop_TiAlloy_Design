@@ -1,0 +1,9 @@
+formula,phase_field,sro,K_mlip,G_mlip,E_mlip,stability,K_crabnet,E_crabnet,E_proxy
+Ti90V10,alpha+beta,7e-05,74.9,7.6,22.2,STABLE,102.5,136.4,117.7
+Ti85V15,metastable-beta,4e-05,73.7,4.6,13.6,STABLE,103.4,127.3,118.3
+Ti85Al4V11,alpha+beta,0.00155,80.6,10.0,28.7,UNSTABLE_0K,94.9,115.4,115.3
+Ti70Al11V15Cr4,metastable-beta,0.00145,70.9,10.4,29.7,STABLE,91.4,114.6,116.3
+Ti85V14Mo1,metastable-beta,0.00042,81.3,-2.9,-8.7,UNSTABLE_0K,96.7,119.2,119.6
+Ti70Al12V15Cr3,metastable-beta,0.00145,69.8,8.0,23.0,STABLE,91.4,113.8,114.6
+Ti85Al1V14,alpha+beta,0.00043,79.2,51.7,127.5,STABLE,95.5,116.9,117.5
+Ti70Al12V15Fe3,metastable-beta,0.00145,56.2,-37.8,-146.3,UNSTABLE_0K,91.7,114.9,113.2

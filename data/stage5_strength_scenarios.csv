@@ -1,0 +1,9 @@
+formula,phase_field,scenario,c_solute,ss_adj_MPa,base_MPa,base_unc_MPa,sigma_y_d1,sigma_y_d10,sigma_y_d50,sigma_y_mid,sigma_y_lo,sigma_y_hi,rho,spec_strength_mid,spec_strength_lo,spec_strength_hi,ratio_vs_ti64_sta,validity_flag,tier,on_final_front
+Ti70Al11V15Cr4,metastable-beta,A_unaged,0.3,80.0,850.0,100.0,1169.0,930.0,869.0,930.0,769.0,1269.0,4.588,202.7,167.6,276.7,0.82,SS_LINEAR_EDGE,TIER-3,True
+Ti70Al11V15Cr4,metastable-beta,B_aged,0.3,80.0,1200.0,150.0,1519.0,1280.0,1219.0,1280.0,1069.0,1669.0,4.588,279.0,233.0,363.8,1.12,SS_LINEAR_EDGE,TIER-3,True
+Ti85Al1V14,alpha+beta,A_unaged,0.15,20.0,800.0,100.0,1059.0,820.0,759.0,820.0,659.0,1159.0,4.674,175.4,141.0,248.0,0.71,OK,TIER-3,True
+Ti85Al1V14,alpha+beta,B_aged,0.15,20.0,1050.0,150.0,1309.0,1070.0,1009.0,1070.0,859.0,1459.0,4.674,228.9,183.7,312.2,0.92,OK,TIER-3,True
+Ti90V10,alpha+beta,A_unaged,0.1,-0.0,800.0,100.0,1039.0,800.0,739.0,800.0,639.0,1139.0,4.638,172.5,137.7,245.6,0.69,OK,TIER-3,True
+Ti90V10,alpha+beta,B_aged,0.1,-0.0,1050.0,150.0,1289.0,1050.0,989.0,1050.0,839.0,1439.0,4.638,226.4,180.9,310.3,0.91,OK,TIER-3,True
+Ti85Al4V11,alpha+beta,A_unaged,0.15,20.0,800.0,100.0,1059.0,820.0,759.0,820.0,659.0,1159.0,4.582,179.0,143.8,253.0,0.72,OK,TIER-3,True
+Ti85Al4V11,alpha+beta,B_aged,0.15,20.0,1050.0,150.0,1309.0,1070.0,1009.0,1070.0,859.0,1459.0,4.582,233.5,187.4,318.5,0.94,OK,TIER-3,True
