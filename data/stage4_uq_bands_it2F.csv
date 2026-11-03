@@ -1,0 +1,11 @@
+formula,phase_field,n_runs,viol_frac,stability_class,cls,C44_med,C44_iqr,C44_mean,C44_sd,C44_lo95,C44_hi95,C11mC12_med,C11mC12_iqr,C11mC12_mean,C11mC12_sd,E_med,E_iqr,E_mean,E_sd,K_med,G_med,rho,spec_stiff_med,spec_stiff_iqr,seed_sd_C44,delta_sd_C44,max_disp_med
+Ti76Al15V1Mo2Cr3Fe3,metastable-beta,3,0.33,MARGINAL,MARGINAL,18.7,20.4,7.3,22.7,-38.2,52.7,2.4,1.4,3.0,1.5,-6.8,37.6,-17.0,38.6,66.2,-2.2,,,,22.7,,0.64
+Ti76Al15V1Mo2Cr4Fe2,metastable-beta,3,0.33,MARGINAL,MARGINAL,20.0,1.9,19.2,2.0,15.2,23.1,2.0,10.6,-3.0,11.5,25.6,2.3,24.9,2.4,69.5,8.9,,,,2.0,,0.32
+Ti77Al14Mo2Cr4Fe3,metastable-beta,3,0.33,MARGINAL,MARGINAL,16.1,3.9,15.9,3.9,8.2,23.6,1.5,7.3,2.8,7.4,19.2,17.2,28.8,19.1,61.7,6.6,,,,3.9,,0.45
+Ti77Al14V1Mo2Cr4Fe2,metastable-beta,3,0.33,MARGINAL,MARGINAL,18.4,0.5,18.1,0.6,17.0,19.2,3.6,4.2,2.7,4.3,14.1,16.3,8.3,17.1,70.1,4.8,,,,0.6,,0.3
+Ti72Al14V12Cr2,metastable-beta,3,0.0,STABLE_SOFT,STABLE_SOFT,16.9,0.1,16.8,0.2,16.5,17.1,4.3,4.7,6.7,5.1,10.8,8.2,13.9,8.6,72.6,3.6,,,,0.2,,0.22
+Ti73Al15V5Mo1Cr3Fe3,metastable-beta,3,0.0,STABLE_SOFT,STABLE_SOFT,14.3,3.1,15.4,3.3,8.9,21.9,8.6,31.6,25.3,34.8,60.1,12.5,56.3,13.0,67.6,22.7,,,,3.3,,0.54
+Ti70Al15V7Cr4Fe4,metastable-beta,3,0.67,UNSTABLE_0K,UNSTABLE_0K,11.2,89.3,-44.8,101.6,-248.0,158.4,-2.4,60.2,-40.1,68.5,14.4,192.4,136.7,219.6,66.6,4.9,,,,101.6,,0.64
+Ti71Al15V6Cr4Fe4,metastable-beta,3,0.67,UNSTABLE_0K,UNSTABLE_0K,8.4,31.3,16.7,32.1,-47.5,81.0,8.5,24.8,16.1,25.7,25.9,26.4,37.0,28.1,59.9,9.2,,,,32.1,,0.48
+Ti73Al14V5Cr4Fe4,metastable-beta,3,0.67,UNSTABLE_0K,UNSTABLE_0K,17.7,8.6,19.6,8.8,2.0,37.2,-6.9,10.4,-7.4,10.4,18.7,55.8,42.1,59.4,62.1,6.4,,,,8.8,,0.46
+Ti77Al13V1Mo1Cr4Fe4,metastable-beta,3,0.67,UNSTABLE_0K,UNSTABLE_0K,18.5,2.1,19.2,2.2,14.8,23.6,-2.1,6.2,1.7,7.0,26.6,16.3,21.3,16.9,58.4,9.3,,,,2.2,,0.57

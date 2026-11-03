@@ -58,7 +58,7 @@ The full certified-front table, the iteration 9–10 interior certifications, an
 7. `results_archive/slide_loopA_iter010.png` and `results_archive/certified_leader_cards.md` — the loop slide and the alloy cards.
 8. `data/iteration_log.csv`, `data/archive_certified.csv`, and `data/archive_provisional.csv` — the ledger and the two archives.
 
-Code lives in `framework/` (shared constants and models) and in `stage2_export/` through `stage8_iteration/` (one folder per stage). This copy keeps the frozen tables and the iteration snapshots. The per-iteration CHGNet files and the intermediate slides stay in [ClosedLoop_TiAlloy_Design](https://github.com/AIR2021Eric/ClosedLoop_TiAlloy_Design). Read the archives and the ledger first.
+Code lives in `framework/` (shared constants and models) and in `stage2_export/` through `stage8_iteration/` (one folder per stage). This copy keeps the frozen tables, the iteration snapshots, the CrabNet gated table, the Stage 3 phase gates, the old v1 Pareto front, and the per-iteration CHGNet queues and bands (`data/tier_*_it*_input.csv`, `data/stage4_uq_{raw,bands}_it*.csv`). The intermediate slides stay in [ClosedLoop_TiAlloy_Design](https://github.com/AIR2021Eric/ClosedLoop_TiAlloy_Design). Read the archives and the ledger first.
 
 ## Do not run
 

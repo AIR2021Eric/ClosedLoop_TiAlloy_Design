@@ -1,0 +1,5 @@
+formula,phase_field,n_runs,viol_frac,stability_class,cls,C44_med,C44_iqr,C44_mean,C44_sd,C44_lo95,C44_hi95,C11mC12_med,C11mC12_iqr,C11mC12_mean,C11mC12_sd,E_med,E_iqr,E_mean,E_sd,K_med,G_med,rho,spec_stiff_med,spec_stiff_iqr,seed_sd_C44,delta_sd_C44,max_disp_med
+Ti76Al15V2Mo2Cr3Fe2,metastable-beta,9,0.33,MARGINAL,MARGINAL,18.8,0.5,18.9,0.7,17.6,20.3,5.8,17.0,-1.6,16.6,25.2,9.6,18.2,15.9,70.8,8.7,4.479,5.63,2.14,0.4,0.4,0.38
+Ti69Al15V16,metastable-beta,9,0.0,STABLE_SOFT,STABLE_SOFT,16.4,3.0,15.8,1.8,12.3,19.3,8.5,6.3,8.7,5.1,26.9,9.0,23.7,13.4,71.4,9.4,4.453,6.04,2.02,1.9,0.0,0.15
+Ti70Al15V14Cr1,metastable-beta,9,0.0,STABLE_SOFT,STABLE_SOFT,18.4,2.9,17.5,1.6,14.3,20.7,5.0,1.8,5.1,1.5,25.6,2.2,25.3,2.1,71.7,8.9,4.446,5.76,0.49,1.8,0.2,0.24
+Ti74Al13V9Cr4,metastable-beta,9,0.0,STABLE_SOFT,STABLE_SOFT,16.9,3.6,18.2,4.2,9.9,26.5,4.3,4.1,5.4,4.1,25.1,6.6,25.8,7.0,70.7,8.7,4.473,5.61,1.48,3.9,1.6,0.18
