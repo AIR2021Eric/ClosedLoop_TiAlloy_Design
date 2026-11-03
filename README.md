@@ -37,9 +37,13 @@ The hypervolume rose quickly through iteration 4 and then flattened. Iterations 
 
 ![Certified-front hypervolume, archive size, and GP labels across 10 iterations](results_archive/slide_loopA_convergence.png)
 
-![Ashby plot at iteration 10](results_archive/slide_loopA_iter010.png)
+![Ashby plot written by the loop at iteration 10](results_archive/slide_loopA_iter010.png)
 
-Green circles on the Ashby plot are certified. Orange circles are provisional. Gray crosses are that iteration’s proposals that did not enter either archive. The vertical-axis unit on this generated slide says `MPa^0.5`; the index drawn there is `σ_y^(2/3) / ρ`. Correct that label in the paper figure. Do not rerun the loop to do it.
+Green circles on that slide are certified. Orange circles are provisional. Gray crosses are that iteration’s proposals that did not enter either archive. The vertical-axis unit on this file says `MPa^0.5`. The index drawn there is `σ_y^(2/3) / ρ`. Leave the file as the loop wrote it.
+
+![Iteration-10 archive against the commercial alloys](results_archive/fig_iter10_vs_commercial.png)
+
+`results_archive/fig_iter10_vs_commercial.png` is the comparison to use in the paper. Named circles are the live front. Smaller markers are the other certified and provisional alloys. Squares are the Stage 7 commercial alloys scored with the same recipe as the search: B_aged yield, model density, and `E_proxy`. The bending index is labeled `σ_y^(2/3) / ρ`. CP-Ti Grade 2 lies below the window. Rebuild it with `py -3.11 stage8_iteration/plot_final_iteration.py`. That script does not run the loop.
 
 The full certified-front table, the iteration 9–10 interior certifications, and the 11-member live front are in `results_archive/certified_leader_cards.md`.
 
@@ -50,10 +54,11 @@ The full certified-front table, the iteration 9–10 interior certifications, an
 3. `results_archive/stages_1_to_8.md` — the stage notes.
 4. `results_archive/methods_loopA.md` — one iteration, in prose.
 5. `results_archive/slide_loopA_convergence.png` and `results_archive/loopA_convergence_series.csv` — whether the front moved.
-6. `results_archive/slide_loopA_iter010.png` and `results_archive/certified_leader_cards.md` — the alloys.
-7. `data/iteration_log.csv`, `data/archive_certified.csv`, and `data/archive_provisional.csv` — the ledger and the two archives.
+6. `results_archive/fig_iter10_vs_commercial.png` — the iteration-10 archive against the commercial alloys.
+7. `results_archive/slide_loopA_iter010.png` and `results_archive/certified_leader_cards.md` — the loop slide and the alloy cards.
+8. `data/iteration_log.csv`, `data/archive_certified.csv`, and `data/archive_provisional.csv` — the ledger and the two archives.
 
-Code lives in `framework/` (shared constants and models) and in `stage2_export/` through `stage8_iteration/` (one folder per stage). The many `data/stage4_uq_*_it*.csv` files are the per-iteration CHGNet evidence. Read the archives and the ledger first.
+Code lives in `framework/` (shared constants and models) and in `stage2_export/` through `stage8_iteration/` (one folder per stage). This copy keeps the frozen tables and the iteration snapshots. The per-iteration CHGNet files and the intermediate slides stay in [ClosedLoop_TiAlloy_Design](https://github.com/AIR2021Eric/ClosedLoop_TiAlloy_Design). Read the archives and the ledger first.
 
 ## Do not run
 
